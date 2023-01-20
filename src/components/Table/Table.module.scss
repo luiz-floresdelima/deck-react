@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #008000;
+    padding: 30px;
+    border-radius: 10px;
+
+    h2{
+        text-align: center;
+    }
+
+    .hands{
+        display: flex;
+        justify-content: space-between;
+
+        
+        .hand{
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+
+            &#enemy{
+                justify-content: flex-end;
+            }
+        }
+    }
+}
+
+.deck{
+    margin: 0 auto;
+}
